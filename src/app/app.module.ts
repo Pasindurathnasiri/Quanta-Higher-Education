@@ -23,6 +23,9 @@ import { TopNavBarComponent } from './Reusable-Components/top-nav-bar/top-nav-ba
 import { FooterBarComponent } from './Reusable-Components/footer-bar/footer-bar.component';
 import { SideNavBarComponent } from './Reusable-Components/side-nav-bar/side-nav-bar.component';
 import { LoginLayoutComponent } from './Layouts/login-layout/login-layout.component';
+import { HomeHeaderComponent } from './Home-Components/home-header/home-header.component';
+import { TeacherProfileSliderComponent } from './Home-Components/teacher-profile-slider/teacher-profile-slider.component';
+import { SubjectProfileSliderComponent } from './Home-Components/subject-profile-slider/subject-profile-slider.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,9 @@ import { LoginLayoutComponent } from './Layouts/login-layout/login-layout.compon
     FooterBarComponent,
     SideNavBarComponent,
     LoginLayoutComponent,
+    HomeHeaderComponent,
+    TeacherProfileSliderComponent,
+    SubjectProfileSliderComponent,
 
   ],
   imports: [
